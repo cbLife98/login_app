@@ -1,8 +1,3 @@
-# login_app
+Login App 
 
-A new Flutter application.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Helps us get the basics of flutter applications and is used to show statefull widgets
