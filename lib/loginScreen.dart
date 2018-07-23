@@ -23,7 +23,7 @@ class LoginScreenState extends State<LoginScreen> {
   void _showWelcome(){
     setState(() {
       if (_nameController.text.isNotEmpty && _passController.text.isNotEmpty){
-           _welcomeString = "Welcome ${_nameController.text}";
+           _welcomeString = "Welcome, ${_nameController.text}";
       } else if(_nameController.text.isEmpty) {
         _welcomeString = "Enter a valid username";
       } else {
